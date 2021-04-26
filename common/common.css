@@ -1,0 +1,46 @@
+.index__main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  z-index: 2;
+}
+.status-bar {
+  width: 100%;
+
+  background-color: #f0e9da;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0px;
+  z-index: 3;
+  font-family: "Chewy", cursive;
+}
+
+.stasus-bar__line {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.stasus-bar__line:nth-child(1) {
+  align-items: center;
+  justify-content: flex-start;
+}
+.stasus-bar__line:nth-child(3) {
+  align-items: center;
+  justify-content: flex-end;
+}
+.stasus-bar__line > i {
+  padding: 3px;
+  font-size: 20px;
+  opacity: 0.8;
+}
+a,
+a:visited,
+a:focus {
+  text-decoration: none;
+}
