@@ -1,0 +1,20 @@
+.friends-display {
+  background-color: #f7eb99;
+  width: 100%;
+  height: 40px;
+  margin: 15px 0px 15px 0px;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Chewy", cursive;
+  color: rgba(0, 0, 0, 0.7);
+}
+.friends-display > i {
+  padding: 5px;
+  opacity: 0.5;
+}
+.friends-display > i:last-child {
+  position: relative;
+  top: 2px;
+}

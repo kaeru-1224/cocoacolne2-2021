@@ -9,10 +9,11 @@
 3. 제작중 막힌 부분과 해결
    3-1> 4/26 로그인창 1)스테이터스 창nth문제
    - nth를 부모의 첫째자식식으로 인식을 해서 같은 class의 경우 어떻게 해야할지 감이 안왔던게 문제 였는데, 결론 적으로는 같은 클래스
-   <div class="stasus-bar__line">
-               <span>NO SERVICE</span>
-               <i class="fas fa-wifi fa-xs"></i>
-           </div>
-           <div class="stasus-bar__line">
-               <span>18:46</span>
-   이런 경우라면 단순 .stasus-bar__line:nth-child(1)식으로 해결하면 되는 문제였음 흑흑 나는 멍청이 이 해결책이 아닐수도 있으니 다시 공부
+      <div class="stasus-bar__line">
+                  <span>NO SERVICE</span>
+                  <i class="fas fa-wifi fa-xs"></i>
+              </div>
+              <div class="stasus-bar__line">
+                  <span>18:46</span>
+      이런 경우라면 단순 .stasus-bar__line:nth-child(1)식으로 해결하면 되는 문제였음 흑흑 나는 멍청이 이 해결책이 아닐수도 있으니 다시 공부
+   3-2> 4/28 :nav구조가 생각이 안낫엇음 ㅋㅋㅋㅋㅋㅋ미췬거아냐 ㅋㅋㅋㅋㅋㄴ

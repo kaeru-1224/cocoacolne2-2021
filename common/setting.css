@@ -1,0 +1,22 @@
+.friends-stasus-bar {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.friends-stasus-bar__title {
+  justify-content: flex-start;
+  width: 33%;
+  font-size: 30px;
+  padding-left: 15px;
+
+  font-family: "Chewy", cursive;
+}
+.friends-stasus-bar__titleicon {
+  justify-content: flex-end;
+}
+
+.friends-stasus-bar__titleicon > i {
+  padding: 4px;
+}

@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Chewy&display=swap");
 @import "reset.css";
 @import "common/common.css";
+@import "common/nav-bar.css";
+@import "common/setting.css";
+@import "css/friends.css";
 html {
   background-color: #f0e9da;
   box-sizing: border-box;

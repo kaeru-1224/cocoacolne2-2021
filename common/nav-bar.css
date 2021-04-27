@@ -1,0 +1,17 @@
+.nav-bar_ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0%;
+  height: 50px;
+  background-color: #f7eb99;
+  box-sizing: border-box;
+}
+.nav-bar_list > a > i {
+  font-size: 25px;
+  color: #7b3933;
+  opacity: 0.8;
+}
