@@ -4,6 +4,7 @@
 @import "common/common.css";
 @import "common/nav-bar.css";
 @import "common/setting.css";
+@import "common/profile.css";
 @import "css/friends.css";
 html {
   background-color: #f0e9da;
@@ -12,6 +13,10 @@ html {
 body {
   height: 120vh;
 }
+.index__main {
+  padding: 0px 25px 0px 25px;
+}
+
 .index__header {
   display: flex;
   flex-direction: column;

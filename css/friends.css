@@ -18,3 +18,38 @@
   position: relative;
   top: 2px;
 }
+.friends-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 8px;
+
+  margin: 10px 0px 15px 0px;
+  opacity: 0.7;
+  font-family: "Chewy", cursive;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+.friendinfo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.friendinfo > span {
+  opacity: 0.8;
+  padding: 2px;
+}
+.fa-chevron-right {
+  padding: 2px;
+  margin: 2px;
+}
+
+.friendpic > img {
+  width: 60px;
+  height: 60px;
+}
+.friends {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.with {
+  border: none;
+}

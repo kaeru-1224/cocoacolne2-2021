@@ -1,0 +1,24 @@
+.friends-myprofile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+.friends-myprofile__pic img {
+  width: 84px;
+  height: 84px;
+  border-radius: 15%;
+  justify-content: flex-start;
+  margin: 10px;
+}
+
+.friends-myprofile__picinfo > h3 {
+  font-size: 20px;
+  font-family: "Chewy", cursive;
+}
+.friends-myprofile__picinfo > h2 {
+  font-size: 14px;
+  font-family: "Chewy", cursive;
+  opacity: 0.5;
+}
