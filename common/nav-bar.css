@@ -9,9 +9,33 @@
   height: 50px;
   background-color: #f7eb99;
   box-sizing: border-box;
+  z-index: 1;
 }
 .nav-bar_list > a > i {
   font-size: 25px;
   color: #7b3933;
   opacity: 0.8;
+}
+.nav-bar_list > a {
+  display: flex;
+  flex-direction: row;
+  width: 50px;
+}
+.nav-bar_bot {
+  background-color: red;
+  opacity: 1;
+  width: 12px;
+  height: 12px;
+  font-size: 5px;
+  border-radius: 50%;
+  position: relative;
+  left: 29px;
+  bottom: 8px;
+  text-align: center;
+  color: white;
+  z-index: 2;
+}
+.two {
+  width: 5px;
+  height: 5px;
 }

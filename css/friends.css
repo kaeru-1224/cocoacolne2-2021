@@ -29,27 +29,38 @@
   font-family: "Chewy", cursive;
   border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
-.friendinfo {
+.gruop {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
 }
-.friendinfo > span {
-  opacity: 0.8;
-  padding: 2px;
+.friendpic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 0.8px solid rgba(0, 0, 0, 0.5);
 }
-.fa-chevron-right {
-  padding: 2px;
-  margin: 2px;
-}
-
-.friendpic > img {
+.friendpic img {
   width: 60px;
   height: 60px;
 }
-.friends {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+.friendpic :nth-child(2) {
+  justify-content: flex-start;
+  width: 100%;
 }
+
+.friends-myprofile__icon {
+  display: flex;
+}
+.fa-chevron-right {
+  padding: 3px;
+  opacity: 0.5;
+}
+
 .with {
   border: none;
 }

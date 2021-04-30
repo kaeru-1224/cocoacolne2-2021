@@ -6,12 +6,13 @@
 @import "common/setting.css";
 @import "common/profile.css";
 @import "css/friends.css";
+@import "css/chats.css";
 html {
   background-color: #f0e9da;
   box-sizing: border-box;
 }
 body {
-  height: 120vh;
+  height: 130vh;
 }
 .index__main {
   padding: 0px 25px 0px 25px;
